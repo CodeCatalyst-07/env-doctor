@@ -3,7 +3,7 @@
 Validate your `.env` / `process.env` against a schema, get **one aggregated diagnostic report** instead of crashing on the first bad variable, and **auto-generate `.env.example`** so it can never drift from what your code actually needs.
 
 [![npm version](https://img.shields.io/npm/v/%40codecatalyst-07%2Fenv-doctor.svg)](https://www.npmjs.com/package/%40codecatalyst-07%2Fenv-doctor)
-[![license](https://img.shields.io/npm/l/%40codecatalyst-07%2Fenv-doctor.svg)](./LICENSE)
+[![license](https://img.shields.io/github/license/CodeCatalyst-07/env-doctor.svg)](./LICENSE)
 
 ## Why
 
