@@ -5,7 +5,7 @@ Thanks for considering a contribution! This is a small, focused package — plea
 ## Setup
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/env-doctor.git
+git clone https://github.com/CodeCatalyst-07/env-doctor.git
 cd env-doctor
 npm install
 ```

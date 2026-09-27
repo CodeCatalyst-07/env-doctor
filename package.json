@@ -36,12 +36,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YOUR_USERNAME/env-doctor.git"
+    "url": "git+https://github.com/CodeCatalyst-07/env-doctor.git"
   },
   "bugs": {
-    "url": "https://github.com/YOUR_USERNAME/env-doctor/issues"
+    "url": "https://github.com/CodeCatalyst-07/env-doctor/issues"
   },
-  "homepage": "https://github.com/YOUR_USERNAME/env-doctor#readme",
+  "homepage": "https://github.com/CodeCatalyst-07/env-doctor#readme",
   "dependencies": {},
   "devDependencies": {}
 }
