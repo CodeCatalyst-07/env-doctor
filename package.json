@@ -20,8 +20,8 @@
     "node": ">=14"
   },
   "scripts": {
-    "test": "node --test test/**/*.test.js",
-    "test:watch": "node --test --watch test/**/*.test.js",
+    "test": "node --test test/*.test.js",
+    "test:watch": "node --test --watch test/*.test.js",
     "prepublishOnly": "npm test"
   },
   "keywords": [
