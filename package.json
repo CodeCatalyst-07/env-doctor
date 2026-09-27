@@ -1,6 +1,9 @@
 {
-  "name": "env-doctor",
+  "name": "@codecatalyst-07/env-doctor",
   "version": "0.1.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "Validate your .env / process.env against a schema, get one aggregated diagnostic report instead of crashing on the first bad variable, and auto-generate .env.example from your schema.",
   "main": "src/index.js",
   "types": "src/index.d.ts",

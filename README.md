@@ -2,8 +2,8 @@
 
 Validate your `.env` / `process.env` against a schema, get **one aggregated diagnostic report** instead of crashing on the first bad variable, and **auto-generate `.env.example`** so it can never drift from what your code actually needs.
 
-[![npm version](https://img.shields.io/npm/v/env-doctor.svg)](https://www.npmjs.com/package/env-doctor)
-[![license](https://img.shields.io/npm/l/env-doctor.svg)](./LICENSE)
+[![npm version](https://img.shields.io/npm/v/%40codecatalyst-07%2Fenv-doctor.svg)](https://www.npmjs.com/package/%40codecatalyst-07%2Fenv-doctor)
+[![license](https://img.shields.io/npm/l/%40codecatalyst-07%2Fenv-doctor.svg)](./LICENSE)
 
 ## Why
 
@@ -28,14 +28,14 @@ env-doctor found 3 problems with your environment variables:
 ## Installation
 
 ```bash
-npm install env-doctor
+npm install @codecatalyst-07/env-doctor
 ```
 
 ## Basic usage
 
 ```js
 // config.js
-const { validateEnv } = require('env-doctor');
+const { validateEnv } = require('@codecatalyst-07/env-doctor');
 
 const env = validateEnv({
   PORT: { type: 'port', default: 3000 },
@@ -129,7 +129,7 @@ Builds a `.env.example` file's contents from a schema.
 More runnable examples are in [`examples/`](./examples):
 
 ```js
-const { validateEnv } = require('env-doctor');
+const { validateEnv } = require('@codecatalyst-07/env-doctor');
 
 try {
   const env = validateEnv({
@@ -165,4 +165,4 @@ Issues and PRs are welcome.
 
 ## License
 
-MIT © [Your Name]
+MIT © CodeCatalyst-07
